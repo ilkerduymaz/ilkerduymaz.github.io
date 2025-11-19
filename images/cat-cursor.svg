@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Cat ears -->
+  <path d="M8 4l4 8H4z" fill="#FF69B4" stroke="#FFD700" stroke-width="1"/>
+  <path d="M20 4l8 8h-8z" fill="#FF69B4" stroke="#FFD700" stroke-width="1"/>
+  <!-- Cat head -->
+  <circle cx="16" cy="18" r="10" fill="#FF69B4" stroke="#FFD700" stroke-width="2" filter="url(#glow)"/>
+  <!-- Cat eyes -->
+  <circle cx="12" cy="15" r="2" fill="#00FFFF"/>
+  <circle cx="20" cy="15" r="2" fill="#00FFFF"/>
+  <!-- Cat pupils -->
+  <ellipse cx="12" cy="15" rx="0.5" ry="1.5" fill="#000"/>
+  <ellipse cx="20" cy="15" rx="0.5" ry="1.5" fill="#000"/>
+  <!-- Cat nose -->
+  <path d="M16 18l-2 2h4z" fill="#FFD700"/>
+  <!-- Cat mouth -->
+  <path d="M14 21c0 2 2 2 2 2s2 0 2-2" stroke="#FFD700" stroke-width="1" fill="none"/>
+  <!-- Cat whiskers -->
+  <line x1="4" y1="17" x2="10" y2="16" stroke="#FFD700" stroke-width="1"/>
+  <line x1="4" y1="19" x2="10" y2="19" stroke="#FFD700" stroke-width="1"/>
+  <line x1="22" y1="16" x2="28" y2="17" stroke="#FFD700" stroke-width="1"/>
+  <line x1="22" y1="19" x2="28" y2="19" stroke="#FFD700" stroke-width="1"/>
+</svg>
