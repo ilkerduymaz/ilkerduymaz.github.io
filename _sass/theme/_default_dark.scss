@@ -3,30 +3,30 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$gray                       : #6b7280;
+$dark-gray                  : mix(#000, $gray, 45%);
+$darker-gray                : mix(#000, $gray, 65%);
+$light-gray                 : mix(#fff, $gray, 55%);
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #1c1917;
+$background-light           : mix(#fdfcf8, $background, 15%);
+$background-lighter         : mix(#fdfcf8, $background, 25%);
+$text                       : #f5f5f4;
+$link                       : #60a5fa;
+$link-dark                  : #3b82f6;
+$link-light                 : #93c5fd;
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #f87171;
+$info-color                 : #60a5fa;
+$notice-color               : #6b7280;
+$success-color              : #34d399;
+$warning-color              : #fbbf24;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 6px;
+$box-shadow                 : 0 4px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+$global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
@@ -37,18 +37,18 @@ $sidebar-screen-min-width   : 1024px;
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
+    --global-footer-bg-color            : #{mix(#0f0e0d, $background, 60%)};
+    --global-border-color               : #{mix(#44403c, $background-light, 40%)};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+    --global-code-background-color      : #{mix(#292524, $background, 70%)};
+    --global-code-text-color            : #{mix(#d6d3d1, $text, 80%)};
+    --global-fig-caption-color          : #{mix(#a8a29e, $light-gray, 60%)};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-link-color-visited         : #{mix(#c084fc, $link-light, 70%)};
+    --global-masthead-link-color        : #{mix(#e7e5e4, $text, 85%)};
+    --global-masthead-link-color-hover  : #{$text};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
+    --global-text-color-light           : #{mix(#d6d3d1, $text, 70%)};
     --global-thead-color                : #{$background-lighter};
 }

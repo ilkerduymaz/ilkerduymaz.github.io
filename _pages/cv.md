@@ -20,9 +20,9 @@ body {
   margin: 0 auto;
   padding: 0 1in 1in 1in;
   background: var(--global-bg-color);
-  font-size: 12pt;
+  font-size: 13pt;
   color: var(--global-text-color);
-  font-family: "Georgia", "Times New Roman", "Palatino Linotype", "Book Antiqua", serif;
+  font-family: "IBM Plex Sans", Georgia, "Times New Roman", Times, serif;
 }
 
 .cv-section {
@@ -30,8 +30,8 @@ body {
 }
 
 .cv-section h2 {
-  font-size: 15pt;
-  font-weight: 500;
+  font-size: 16pt;
+  font-weight: 400;
   color: var(--global-text-color);
   margin: 1.2em 0 0.8em 0;
   text-transform: uppercase;
@@ -52,13 +52,13 @@ body {
 }
 
 .cv-date {
-  font-weight: 500;
-  width: 90pt;
+  font-weight: 400;
+  width: 100pt;
   flex-shrink: 0;
   text-align: right;
   padding-left: 15pt;
   order: 2;
-  font-size: 11pt;
+  font-size: 12pt;
 }
 
 .cv-content {
@@ -69,8 +69,8 @@ body {
 }
 
 .cv-title {
-  font-weight: 500;
-  font-size: 14pt;
+  font-weight: 400;
+  font-size: 15pt;
   margin-bottom: 2pt;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .cv-description {
-  font-size: 11pt;
+  font-size: 12pt;
   line-height: 1.3;
   margin-top: 3pt;
   text-align: justify;
@@ -95,8 +95,8 @@ body {
 }
 
 .skill-category-title {
-  font-weight: 500;
-  font-size: 12pt;
+  font-weight: 400;
+  font-size: 13pt;
   margin-bottom: 4pt;
   display: inline-block;
   width: 120pt;
@@ -106,7 +106,7 @@ body {
 .skill-items {
   display: inline-block;
   width: calc(100% - 130pt);
-  font-size: 11pt;
+  font-size: 12pt;
   line-height: 1.3;
 }
 
@@ -125,7 +125,7 @@ body {
 
 .latex-list li:before {
   content: "• ";
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Print-friendly styles */
