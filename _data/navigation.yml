@@ -29,8 +29,8 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Cool Page"
-    url: /cool/
+  # - title: "Cool Page"
+  #   url: /cool/
     
   # - title: "CV"
   #   url: /cv-json/
