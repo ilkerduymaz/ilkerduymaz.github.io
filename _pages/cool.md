@@ -102,14 +102,14 @@ animation: blink 3s infinite !important;
 
 .slide-text {
     display: inline-block;
-    animation: slide 8s linear infinite !important;
+    animation: slide 10s linear infinite !important;
     font-weight: bold !important;
     color: #ff00ff !important;
     white-space: nowrap !important;
 }
 
 @keyframes slide {
-    0% { transform: translateX(100vw); }
+    0% { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
 }
 
@@ -314,8 +314,16 @@ Best Viewed in Netscape Navigator 4.0+</span>
 You are visitor number <span class="blink-text">42</span>!
 </div>
 
-<div class="scroll-container">
-<div class="slide-text">*** Welcome to the most AWESOME page on the interwebs! ***</div>
+<div class="scroll-container" style="padding: 5px; margin: 15px 0;">
+<div style="background: linear-gradient(180deg, #000000, #1a1a1a); border: 2px solid #00ff00; border-radius: 3px; padding: 5px 10px; box-shadow: 0 0 10px #00ff00;">
+    <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px;">
+        <span style="color: #00ff00; font-family: 'Courier New', monospace; font-size: 11px; white-space: nowrap;">🎵 WINAMP:</span>
+        <div style="flex: 1; overflow: hidden; background: #000; border: 1px inset #333; padding: 2px 5px;">
+            <div class="slide-text" style="color: #00ffff; font-family: 'Courier New', monospace; font-size: 20px;">♫ Darude - Sandstorm ♫ *** [128 kbps MP3] *** Next: Eiffel 65 - Blue (Da Ba Dee) *** </div>
+        </div>
+        <span style="color: #888; font-family: 'Courier New', monospace; font-size: 10px; white-space: nowrap;">⏮️ ⏯️ ⏹️ ⏭️ ▓▓▓▓▓▓▓▓░░</span>
+    </div>
+</div>
 </div>
 
 📧 Get In Touch 📧 <br>

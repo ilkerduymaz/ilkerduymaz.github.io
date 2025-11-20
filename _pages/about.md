@@ -1,9 +1,9 @@
 ---
 permalink: /
-title: "About me"
+title: "Hi!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I’m a PhD candidate in psychology at Justus Liebig University Giessen, where I use EEG, psychophysics, and computational modelling to understand how the brain makes sense of dynamic visual scenes and motion over time. I’m especially interested in temporal processing, neural oscillations, and how we group and interpret visual information as it changes, from simple motion stimuli to more naturalistic videos. I’ve worked across several labs and international collaborations, co-authoring papers on motion perception, predictive processing, and ensemble representations. I enjoy open, collaborative science, designing clever experiments, and building analysis pipelines that make complex neural data a bit more approachable. Outside the lab, I’m an avid board game nerd, an amateur music producer, and an aspiring game developer. Since moving to Germany, I’ve also developed a soft spot for medieval castles and often travel around the country to find new ones.

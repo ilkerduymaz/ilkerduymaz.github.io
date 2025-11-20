@@ -65,3 +65,14 @@
     font-weight: 700;
   }
 }
+
+/* Hide Cool Page link from navigation on mobile devices */
+@media screen and (max-width: 768px) {
+  .masthead__menu-item a[href="/cool/"] {
+    display: none !important;
+  }
+  
+  .masthead__menu-item:has(a[href="/cool/"]) {
+    display: none !important;
+  }
+}
